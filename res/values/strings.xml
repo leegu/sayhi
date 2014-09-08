@@ -8,5 +8,11 @@
     <string name="tab_setting">设置</string>
     <string name="tab_char">消息</string>
     <string name="tab_myself">我</string>
+    <string name="back">返回</string>
 
+    <string-array name="main_found_strs">
+        <item >我的圈子</item>
+        <item >附近</item>
+        <item >觅Ta</item>
+    </string-array>
 </resources>

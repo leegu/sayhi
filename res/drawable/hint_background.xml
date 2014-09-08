@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false"
+     >
+
+    <solid android:color="#f00000" />
+	<corners android:radius="10dp"/>
+    <stroke
+        android:width="1dp"
+        android:color="#ffffff" />
+    <size android:width="10dp"
+        android:height="10dp"/>
+	<padding 
+	    android:left="@dimen/hint_background_padding"
+	    android:right="@dimen/hint_background_padding"
+	    android:top="@dimen/hint_background_padding"
+	    android:bottom="@dimen/hint_background_padding"
+	    />
+</shape>

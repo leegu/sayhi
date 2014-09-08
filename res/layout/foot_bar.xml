@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/foot_bar"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="@dimen/foot_bar_height"
         android:layout_weight="1"
         android:background="@color/head_bar"
         android:gravity="center"
@@ -16,12 +16,15 @@
             android:orientation="vertical" >
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
+                android:layout_width="@dimen/foot_bar_icon_width_height"
+                android:layout_height="@dimen/foot_bar_icon_width_height" 
+                android:src="@drawable/chat"
+			/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:textSize="10dp"
                 android:gravity="center"
                 android:text="@string/tab_char" />
         </LinearLayout>
@@ -36,37 +39,43 @@
         -->
 <!-- 联系人 -->
         <LinearLayout
-            android:layout_width="0dip"
+             android:layout_width="0dip"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical" >
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
+                android:layout_width="@dimen/foot_bar_icon_width_height"
+                android:layout_height="@dimen/foot_bar_icon_width_height" 
+                android:src="@drawable/firends"
+			/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:textSize="10dp"
                 android:gravity="center"
                 android:text="@string/tab_contact" />
         </LinearLayout>
 <!-- 附近 -->
         <LinearLayout
-            android:layout_width="0dip"
+             android:layout_width="0dip"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical" >
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
+                android:layout_width="@dimen/foot_bar_icon_width_height"
+                android:layout_height="@dimen/foot_bar_icon_width_height" 
+                android:src="@drawable/near"
+			/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:textSize="10dp"
                 android:gravity="center"
                 android:text="@string/tab_near" />
         </LinearLayout>
@@ -79,12 +88,15 @@
             android:orientation="vertical" >
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
+                android:layout_width="@dimen/foot_bar_icon_width_height"
+                android:layout_height="@dimen/foot_bar_icon_width_height" 
+                android:src="@drawable/myself"
+			/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:textSize="10dp"
                 android:gravity="center"
                 android:text="@string/tab_myself" />
         </LinearLayout>

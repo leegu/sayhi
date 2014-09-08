@@ -2,7 +2,7 @@
 <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/head_bar"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="@dimen/head_bar_height"
         android:layout_weight="1"
         android:background="@color/head_bar"
         android:gravity="center" >
@@ -22,6 +22,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/head_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
